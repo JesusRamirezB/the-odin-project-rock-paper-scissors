@@ -41,7 +41,7 @@ function playRound() {
         resultString += ("You picked scissors and computer picked rock so you lost. \n");
     } else if (ps == "scissors" && cs == "paper") {
         victories += 1;
-        resultString += n("You picked scissors and computer picked paper so you won. \n");
+        resultString += ("You picked scissors and computer picked paper so you won. \n");
     } else if (ps == "scissors" && cs == "scissors") {
         resultString += ("You picked scissors and computer picked scissors so you tied. \n");
     }
