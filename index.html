@@ -5,12 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>rock-paper-scissors</title>
 </head>
 
 <body>
-    Welcome to rock-paper-scissors. A project donde during the course of The Odin Project.
+    <div class="contenedor">
+        <header class="header">
+            <h1>Bienvenido a piedra-papel-tijeras.</h1><br>
+            <p>Un proyecto realizado durante el curso de The Odin Project.</p>
+        </header>
+        <h2 class="titulo">Elige tu arma!</h2>
+        <div class="armas">
+            <button name="piedra" value="rock" class="option"><i class="fas fa-hand-rock fa-4x"></i></button>
+            <button name="papel" value="paper" class="option"><i class="fas fa-hand-paper fa-4x"></i></button>
+            <button name="tijeras" value="scissors" class="option"><i class="fas fa-hand-scissors fa-4x"></i></button>
+        </div>
+        <div class="resultados" id="resultados">
+            <h3>Aqui se mostraran los resultados, empieza a jugar seleccionando una de las armas anteriores y prueba tu suerte contra un computadora!
+            </h3><br>
+        </div>
+        <h3 id="score"></h3>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
